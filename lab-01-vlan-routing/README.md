@@ -33,10 +33,16 @@ isolated in separate VLANs, with inter-VLAN routing via a router.
 ## Verification Screenshots
 
 ### VLAN Assignment (show vlan brief)
-![VLAN Brief](./screenshots/vlan-brief.png)
+![VLAN Brief](./screenshots/vlan-brief1.png)
+
+![VLAN Brief](./screenshots/vlan-brief2.png)
+
+![VLAN Brief](./screenshots/vlan-brief3.png)
 
 ### Router Interfaces (show ip int brief)
-![Router Interfaces](./screenshots/router-interfaces.png)
+![Router Interfaces](./screenshots/router-interfaces1.png)
+
+![Router Interfaces](./screenshots/router-interfaces2.png)
 
 ### Simulation Mode — Packet Flow
 ![Simulation](./screenshots/simulation-mode.png)
