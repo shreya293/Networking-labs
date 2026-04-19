@@ -51,7 +51,7 @@ isolated in separate VLANs, with inter-VLAN routing via a router.
 ![Ping Test](./screenshots/ping-test.png)
 
 ## Network in Action
-![Simulation](screenshots/simulation.gif)
+![Simulation](./screenshots/simulation.gif)
 
 
 The GIF above shows the ICMP ping traveling from the HR VLAN through the router into the Engineering VLAN, captured in Packet Tracer's simulation mode. This visualization makes it clear why a router is essential for inter-VLAN communication.
