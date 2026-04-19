@@ -50,11 +50,15 @@ isolated in separate VLANs, with inter-VLAN routing via a router.
 ### Cross-VLAN Ping Test
 ![Ping Test](./screenshots/ping-test.png)
 
-## Network in Action
-![Simulation](./screenshots/simulation.gif)
+## Network in Action 🎬
 
+> **Note:** Due to the high resolution and detail of the simulation, the full demonstration video and GIF are available as files within this repository. 
 
-The GIF above shows the ICMP ping traveling from the HR VLAN through the router into the Engineering VLAN, captured in Packet Tracer's simulation mode. This visualization makes it clear why a router is essential for inter-VLAN communication.
+To see the step-by-step packet flow and inter-VLAN routing in action:
+1. Navigate to the `/screenshots` folder (or the root directory).
+2. Download and open **`simulation.mp4`**.
+
+The demonstration shows an ICMP ping traveling from the **HR VLAN** through the router into the **Engineering VLAN**, captured in Packet Tracer's simulation mode and performed other configuration as well. This visualization clearly demonstrates why a Layer 3 device (the router) is essential for inter-VLAN communication.
 
 ## Key Learnings
 - VLANs segment a network at Layer 2 — different VLANs cannot communicate without a router
