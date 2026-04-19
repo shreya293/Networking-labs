@@ -52,7 +52,7 @@ isolated in separate VLANs, with inter-VLAN routing via a router.
 
 ## Network in Action 🎬
 
-> **Note:** Due to the high resolution and detail of the simulation, the full demonstration video and GIF are available as files within this repository. 
+> **Note:** Due to the high resolution and detail of the simulation, the full demonstration video are available as files within this repository. 
 
 To see the step-by-step packet flow and inter-VLAN routing in action:
 1. Navigate to the `/screenshots` folder (or the root directory).
