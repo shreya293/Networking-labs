@@ -6,7 +6,6 @@ Assign static IP addresses and verify connectivity between all devices.
 
 ## Topology
 <img src="screenshots/topology.png" alt="Topology" width="600">
-
 ## Network Details
 | Device | Interface    | IP Address  | Subnet Mask   |
 |--------|-------------|-------------|---------------|
