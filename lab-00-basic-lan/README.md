@@ -5,7 +5,7 @@ Build a simple Local Area Network with one switch and three PCs.
 Assign static IP addresses and verify connectivity between all devices.
 
 ## Topology
-<img src="./screenshots/topology.png" alt="Topology" width="600">
+<img src="/lab-00-basic-lan/screenshots/topology.png" alt="Topology" width="600">
 
 ## Network Details
 | Device | Interface    | IP Address  | Subnet Mask   |
@@ -20,8 +20,7 @@ Assign static IP addresses and verify connectivity between all devices.
 - Verified end-to-end connectivity using ping
 
 ## Verification
-<img src="./screenshots/ping-test.png" alt="Ping Test Verification" width="600">
-
+<img src="/lab-00-basic-lan/screenshots/ping-test.png" alt="Ping Test Verification" width="600">
 Ping from PC1 to PC0 (192.168.2.1): **4/4 packets received, 0% loss**
 
 ## Key Learnings
