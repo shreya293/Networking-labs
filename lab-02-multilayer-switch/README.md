@@ -84,9 +84,13 @@ All unknown traffic (internet-bound) forwards to R1.
 | Single point congestion | Yes (one physical link) | No |
 | Used in | Small networks | Enterprise networks |
 
-## Simulation Video
-> To see the live packet simulation, download the video file:
-[Click here to watch simulation](screenshots/simulation.mp4)
+## Simulation Video 🎬
+
+> **Note:** Due to the high resolution and detail of the simulation, the full demonstration video are available as files within this repository. 
+
+To see the step-by-step packet flow and inter-VLAN routing in action:
+1. Navigate to the `/screenshots` folder (or the root directory).
+2. Download and open **`simulation.mp4`**.
 
 ## Key Learnings
 - `no switchport` converts a Layer 2 switch port to a routed port
