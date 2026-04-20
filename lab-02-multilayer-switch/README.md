@@ -84,6 +84,10 @@ All unknown traffic (internet-bound) forwards to R1.
 | Single point congestion | Yes (one physical link) | No |
 | Used in | Small networks | Enterprise networks |
 
+## Simulation Video
+> To see the live packet simulation, download the video file:
+[Click here to watch simulation](screenshots/simulation.mp4)
+
 ## Key Learnings
 - `no switchport` converts a Layer 2 switch port to a routed port
 - `ip routing` must be enabled on a multilayer switch for SVIs (Switched Virtual Interface) to route
