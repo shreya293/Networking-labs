@@ -14,7 +14,7 @@ The objective was to create a functional network topology where devices in the *
 ---
 
 ## Network Topology
-![Network Topology](./images/Screenshot_2026-05-15_202658.png)
+![Network Topology](./images/image1.png)
 *Description: The logical topology showing the ACCOUNTS department (Blue) and DELIVERY department (Orange) connected via Router0.*
 
 ---
