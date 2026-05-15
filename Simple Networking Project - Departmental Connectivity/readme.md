@@ -56,9 +56,6 @@ Each PC and Printer was manually assigned a static IP address according to its r
 ### Simulation Mode Analysis
 Using the Simulation Panel, the flow of ICMP and ARP packets was traced to ensure the router correctly handled the traffic between subnets.
 
-![Simulation Panel Trace](./images/Screenshot_2026-05-15_201954.png)
-*Description: The Event List confirms the successful transmission of ICMP packets from the DELIVERY department to the ACCOUNTS department.*
-
 ### Demonstration Video
 [Watch the Project Walkthrough](./images/simple_project.mp4)
 *Description: A video demonstration showing the step-by-step configuration, CLI execution, and a successful final ping test.*
