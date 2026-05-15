@@ -57,7 +57,6 @@ Each PC and Printer was manually assigned a static IP address according to its r
 Using the Simulation Panel, the flow of ICMP and ARP packets was traced to ensure the router correctly handled the traffic between subnets.
 
 ### Demonstration Video
-<br>
 the video is in the images folder
 *Description: This video demonstrates the step-by-step configuration, CLI execution, and a successful final ping test.*
 
@@ -65,5 +64,5 @@ the video is in the images folder
 
 ## Project Metadata
 * **Project Name:** Simple Networking Project - Departmental Connectivity
-* **Tools Used:** Cisco Packet Tracer, VLSM Calculator
+* **Tools Used:** Cisco Packet Tracer.
 * **Target Achievement:** Successful Inter-Subnet Communication
