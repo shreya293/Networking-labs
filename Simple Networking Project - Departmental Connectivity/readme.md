@@ -37,12 +37,16 @@ The Cisco 2911 Router was configured to act as the default gateway for both subn
 ![Router CLI Configuration](./images/image2)
 <br>
 ![Router CLI Configuration](./images/image3)
+<br>
 *Description: CLI commands showing the assignment of IP addresses to GigabitEthernet 0/0 and 0/1 and bringing the interfaces up using the 'no shut' command.*
 
 ### 2. End Device IP Assignment
 Each PC and Printer was manually assigned a static IP address according to its respective departmental subnet.
 
 ![PC IP Configuration](./images/image4.png)
+<br>
+![PC IP Configuration](./images/image5.png)
+<br>
 *Description: Static IPv4 configuration on a PC in the DELIVERY department showing the IP, Subnet Mask, and Default Gateway.*
 
 ---
