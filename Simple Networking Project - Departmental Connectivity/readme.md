@@ -34,9 +34,9 @@ Based on the project requirements, the `192.168.40.0` network was divided into t
 ### 1. Router Interface Configuration
 The Cisco 2911 Router was configured to act as the default gateway for both subnets.
 
-![Router CLI Configuration](./images/image2)
+![Router CLI Configuration](./images/image2.png)
 <br>
-![Router CLI Configuration](./images/image3)
+![Router CLI Configuration](./images/image3.png)
 <br>
 *Description: CLI commands showing the assignment of IP addresses to GigabitEthernet 0/0 and 0/1 and bringing the interfaces up using the 'no shut' command.*
 
