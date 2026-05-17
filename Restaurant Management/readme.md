@@ -61,6 +61,12 @@ I configured DHCP pools on each router so that every laptop, PC, and smartphone 
 ![Client IP Verification](./hotel_media/dhcp_client_success.png)
 <br>
 *Action: Verification of a PC successfully obtaining an IP, Subnet Mask, and Gateway from the router pool.*
+<br>
+![dhcp+Internal_VLAN1](./hotel_media/dhcp+Internal_VLAN1.png)
+<br>
+![dhcp+Internal_VLAN2](./hotel_media/dhcp+Internal_VLAN2.png)
+*Action: The Internal VLAN Routing and DHCP configured togatehr on the router and tested along with ping*
+
 </details>
 
 <details>
