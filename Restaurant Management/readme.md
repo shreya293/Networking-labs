@@ -89,8 +89,15 @@ OSPF was configured on all three routers to advertise departmental networks. Thi
 Each floor features high-speed Wi-Fi. Access points were configured with unique SSIDs and WPA2-PSK encryption.
 
 ![Access Point Security](./hotel_media/ap_security.png)
-![Smartphone Wireless Setup](./hotel_media/mobile_config.png)
-![Laptop Connection Screen](./hotel_media/laptop_wifi_connect.png)
+<br>
+![Tablet Setup](./hotel_media/Tablet_config.png)
+<br>
+![Laptop Connection Screen](./hotel_media/laptop_wifi_connect1.png)
+<br>
+![Laptop Connection Screen](./hotel_media/laptop_wifi_connect2.png)
+<br>
+![Smartphone Connection Screen](./hotel_media/smartphone_connect.png)
+<br>
 *Process: Manually entering the SSID and WPA2-PSK password on smartphones and tablets to establish connectivity.*
 </details>
 
