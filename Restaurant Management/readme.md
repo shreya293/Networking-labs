@@ -66,7 +66,9 @@ I configured DHCP pools on each router so that every laptop, PC, and smartphone 
 <br>
 ![dhcp+Internal_VLAN2](./hotel_media/dhcp+Internal_VLAN2.png)
 <br>
-*Action: The Internal VLAN Routing and DHCP configured togatehr on the router and tested along with ping*
+*Action: The Internal VLAN Routing and DHCP configured togather on the router and tested along with ping*
+<br>
+*Note: to configure the inter-VLAN routing, we require to create a sub-interface along with assigning a  VLAN number and the IP address to be assigned, which acts as a default gateway.*
 
 </details>
 
@@ -78,6 +80,7 @@ OSPF was configured on all three routers to advertise departmental networks. Thi
 ![OSPF Configuration](./hotel_media/ospf_config.png)
 <br>
 *Result: Here by configuring the OSPF on all Routers we can connect 1 PC of 1 floor to another PC of ANother FLoor.*
+*NOTE: to configure OSPF we need to set network range , default gateway, dns-server per pool. In this case we set network range as 192.168.8.0 - 255.255.255.0 , default gateway as 192.168.8.1, dns-server as 192.168.8.1 for pool of reception.*
 </details>
 
 <details>
@@ -97,7 +100,11 @@ Each floor features high-speed Wi-Fi. Access points were configured with unique 
 Remote access is secured via SSH using the username `itech` and password `itech`. This allows IT staff to manage routers from any floor.
 
 ![SSH Configuration](./hotel_media/ssh_setup.png)
+<br>
+*Note: for configuring SSH we require Domain-name , username and password here in this case we configure domain name , password and username as Itech and we use RSA for cryptographic encryption.*
+<br>
 ![Successful SSH Remote Session](./hotel_media/ssh_login_success.png)
+<br>
 *Evidence: Command prompt showing a successful remote login to the FLOR2 Router from a Test-PC.*
 </details>
 
@@ -109,8 +116,11 @@ To prevent unauthorized devices from plugging into the IT network, Port Security
 * **Violation:** Shutdown (disables the port if an intruder connects).
 
 ![Port Security Configuration](./hotel_media/port_sec_config.png)
+<br>
 ![Port Security Verification Status](./hotel_media/port_sec_status.png)
+<br>
 ![Sticky MAC Learning Evidence](./hotel_media/sticky_mac_verified.png)
+<br>|
 *Verification: Using 'do show port-security' to confirm the Test-PC is the only allowed device.*
 </details>
 
@@ -120,7 +130,9 @@ To prevent unauthorized devices from plugging into the IT network, Port Security
 The final `show running-config` confirms that all protocols (OSPF, SSH, Port-Security) are saved and active.
 
 ![Running Config Part 1](./hotel_media/run_config_1.png)
+<br>
 ![Running Config Part 2](./hotel_media/run_config_2.png)
+<br>
 *Summary: Comprehensive view of the startup-config settings.*
 </details>
 
