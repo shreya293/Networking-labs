@@ -32,9 +32,12 @@ The routers are the heart of the system, connected via Serial DCE cables. All in
 
 ![Serial Interface Config](./hotel_media/serial_config1.png)
 <br>
+*NOTE: On Every Router we configured the Serial DCE cables along with the clock rate as 64000." 
 ![Serial Interface Config](./hotel_media/serial_config2.png)
 <br>
 ![Interface Status Brief](./hotel_media/int_brief.png)
+<br>
+*Note: Here we configured Ip adress for every ports of Serial Cable.*
 <br>
 *Verification: CLI output showing Gigabit and Serial interfaces in an 'up/up' state.*
 </details>
