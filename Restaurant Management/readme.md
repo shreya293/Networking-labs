@@ -179,8 +179,12 @@ the video is available in hotel_media folder named as ***Video***.
 
 ---
 
-## 📝 Project Identity
-* **Lead Engineer:** Sneha
-* **Location:** Kalburgi
-* **Project Date:** May 2026
+---
+
+## 👤 Project Identity & Professional Goals
+* **Project Contributor:** Shreya Singh 
+* **Role:** Network Engineering Aspirant  
+* **Location:** Kalburgi, India  
+* **Current Focus:** Final-year B.Tech Student specializing in Infrastructure & Cybersecurity.
+* **Aspiration:** This project is part of my journey toward becoming a professional Network Engineer, focusing on hands-on experience with Cisco enterprise solutions.
 * **Environment:** Cisco Packet Tracer 8.x
