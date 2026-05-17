@@ -144,7 +144,13 @@ The final `show running-config` confirms that all protocols (OSPF, SSH, Port-Sec
 
 ![Running Config Part 1](./hotel_media/run_config_1.png)
 <br>
+*NOTE: here using the command `do sh running-config` we see the output of OSPF.*
+<br>
 ![Running Config Part 2](./hotel_media/run_config_2.png)
+<br>
+*NOTE:here we the ouput of SSH Login.*
+<br>
+![Running Config Part 2](./hotel_media/run_config_3.png)
 <br>
 *Summary: Comprehensive view of the startup-config settings.*
 </details>
