@@ -175,8 +175,8 @@ I performed pings between the 1st Floor (Reception) and the 3rd Floor (IT) to ve
 
 ## 🎥 Video Demonstration
 The following video provides a complete walkthrough of the network, showing real-time pings, the SSH login process.
-the video is available in hotel_media folder named as ***Video***. 
-
+the video is available in hotel_media folder named as ***Restarunt_Management.mp4***. 
+![Interface Status Brief](./hotel_media/int_brief.png)
 ---
 
 
