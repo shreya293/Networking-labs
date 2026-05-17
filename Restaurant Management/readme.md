@@ -61,6 +61,8 @@ I configured DHCP pools on each router so that every laptop, PC, and smartphone 
 
 ![DHCP Pool Config](./hotel_media/dhcp_config.png)
 <br>
+*NOTE: to configure dhcp we need to set network range , default gateway, dns-server per pool. In this case we set network range as 192.168.8.0 - 255.255.255.0 , default gateway as 192.168.8.1, dns-server as 192.168.8.1 for pool of reception.*
+<br>
 ![Client IP Verification](./hotel_media/dhcp_client_success.png)
 <br>
 *Action: Verification of a PC successfully obtaining an IP, Subnet Mask, and Gateway from the router pool.*
@@ -82,8 +84,8 @@ OSPF was configured on all three routers to advertise departmental networks. Thi
 
 ![OSPF Configuration](./hotel_media/ospf_config.png)
 <br>
-*Result: Here by configuring the OSPF on all Routers we can connect 1 PC of 1 floor to another PC of ANother FLoor.*
-*NOTE: to configure OSPF we need to set network range , default gateway, dns-server per pool. In this case we set network range as 192.168.8.0 - 255.255.255.0 , default gateway as 192.168.8.1, dns-server as 192.168.8.1 for pool of reception.*
+*Result: Here by configuring the OSPF on all Routers we can connect 1 PC of 1 floor to another PC of Another FLoor.*
+
 </details>
 
 <details>
@@ -93,7 +95,7 @@ Each floor features high-speed Wi-Fi. Access points were configured with unique 
 
 ![Access Point Security](./hotel_media/ap_security.png)
 <br>
-*Note: here we click on Port 1 and configure the SSID with password by selecting the WPA2-PSK.*
+*Note: here we click on Port 1 and then select WPA2-PSK to configure the SSID as Floor1 with password .*
 <br>
 ![Tablet Setup](./hotel_media/Tablet_config.png)
 <br>
