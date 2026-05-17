@@ -31,7 +31,9 @@ Below is the complete documentation of every configuration phase. Click each sec
 The routers are the heart of the system, connected via Serial DCE cables. All interfaces were manually enabled and assigned IPs based on the 10.10.10.x/30 backbone.
 
 ![Serial Interface Config](./hotel_media/serial_config.png)
+<br>
 ![Interface Status Brief](./hotel_media/int_brief.png)
+<br>
 *Verification: CLI output showing Gigabit and Serial interfaces in an 'up/up' state.*
 </details>
 
