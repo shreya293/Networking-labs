@@ -103,7 +103,7 @@ Each floor features high-speed Wi-Fi. Access points were configured with unique 
 <br>
 ![Laptop Connection Screen](./hotel_media/laptop_wifi_connect2.png)
 <br>
-*Note: here we clivk on Desktop then to PC Wireless where we select our WIFI network configured during Access Point and enter the password.
+*Note: here we clivk on Desktop then to PC Wireless where we select our WIFI network configured during Access Point and enter the password*
 <br>
 ![Smartphone Connection Screen](./hotel_media/smartphone_connect.png)
 <br>
@@ -118,6 +118,7 @@ Remote access is secured via SSH using the username `itech` and password `itech`
 ![SSH Configuration](./hotel_media/ssh_setup.png)
 <br>
 *Note: for configuring SSH we require Domain-name , username and password here in this case we configure domain name , password and username as Itech and we use RSA for cryptographic encryption.*
+<br>
 <br>
 ![Successful SSH Remote Session](./hotel_media/ssh_login_success.png)
 <br>
@@ -173,9 +174,8 @@ I performed pings between the 1st Floor (Reception) and the 3rd Floor (IT) to ve
 ---
 
 ## 🎥 Video Demonstration
-The following video provides a complete walkthrough of the network, showing real-time pings, the SSH login process, and wireless device connections.
-
-[Click to Watch the Full Hotel Network Walkthrough](./hotel_media/demo_video.mp4)
+The following video provides a complete walkthrough of the network, showing real-time pings, the SSH login process.
+the video is available in hotel_media folder named as ***Video***. 
 
 ---
 
