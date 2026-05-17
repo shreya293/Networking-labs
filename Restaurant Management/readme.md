@@ -90,11 +90,14 @@ Each floor features high-speed Wi-Fi. Access points were configured with unique 
 
 ![Access Point Security](./hotel_media/ap_security.png)
 <br>
+*Note: here we click on Port 1 and configure the SSID with password by selecting the WPA2-PSK.*
+<br>
 ![Tablet Setup](./hotel_media/Tablet_config.png)
 <br>
 ![Laptop Connection Screen](./hotel_media/laptop_wifi_connect1.png)
 <br>
 ![Laptop Connection Screen](./hotel_media/laptop_wifi_connect2.png)
+*Note: here we clivk on Desktop then to PC Wireless where we select our WIFI network configured during Access Point and enter the password.
 <br>
 ![Smartphone Connection Screen](./hotel_media/smartphone_connect.png)
 <br>
