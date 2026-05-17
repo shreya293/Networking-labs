@@ -128,10 +128,12 @@ To prevent unauthorized devices from plugging into the IT network, Port Security
 
 ![Port Security Configuration](./hotel_media/port_sec_config.png)
 <br>
+*NOTE:we Configured Port Security on the IT Department switch, which allows only test PC to access the port FA0/4.*
+<br>
 ![Port Security Verification Status](./hotel_media/port_sec_status.png)
 <br>
-![Sticky MAC Learning Evidence](./hotel_media/sticky_mac_verified.png)
-<br>|
+*NOTE: Here using the command `do sh start` we see on VLAN 10 we configured Port-security and  Sticky mac address.*
+<br>
 *Verification: Using 'do show port-security' to confirm the Test-PC is the only allowed device.*
 </details>
 
