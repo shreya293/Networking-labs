@@ -179,7 +179,6 @@ the video is available in hotel_media folder named as ***Video***.
 
 ---
 
----
 
 ## 👤 Project Identity & Professional Goals
 * **Project Contributor:** Shreya Singh 
