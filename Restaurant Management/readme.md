@@ -30,7 +30,9 @@ Below is the complete documentation of every configuration phase. Click each sec
 
 The routers are the heart of the system, connected via Serial DCE cables. All interfaces were manually enabled and assigned IPs based on the 10.10.10.x/30 backbone.
 
-![Serial Interface Config](./hotel_media/serial_config.png)
+![Serial Interface Config](./hotel_media/serial_config1.png)
+<br>
+![Serial Interface Config](./hotel_media/serial_config2.png)
 <br>
 ![Interface Status Brief](./hotel_media/int_brief.png)
 <br>
@@ -43,7 +45,9 @@ The routers are the heart of the system, connected via Serial DCE cables. All in
 To meet the requirement of 8 departments, I used "Router-on-a-Stick." Each department (Reception, Finance, IT, etc.) was assigned a specific VLAN ID and sub-interface.
 
 ![VLAN Sub-interface Configuration](./hotel_media/vlan_sub_int.png)
+<br>
 ![VLAN Table Verification](./hotel_media/vlan_brief.png)
+<br>
 *Details: Encapsulation dot1Q was applied to each sub-interface to map VLAN IDs to their respective network gateways.*
 </details>
 
@@ -53,7 +57,9 @@ To meet the requirement of 8 departments, I used "Router-on-a-Stick." Each depar
 I configured DHCP pools on each router so that every laptop, PC, and smartphone receives an IP automatically.
 
 ![DHCP Pool Config](./hotel_media/dhcp_config.png)
+<br>
 ![Client IP Verification](./hotel_media/dhcp_client_success.png)
+<br>
 *Action: Verification of a PC successfully obtaining an IP, Subnet Mask, and Gateway from the router pool.*
 </details>
 
