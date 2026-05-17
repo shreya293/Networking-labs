@@ -65,6 +65,7 @@ I configured DHCP pools on each router so that every laptop, PC, and smartphone 
 ![dhcp+Internal_VLAN1](./hotel_media/dhcp+Internal_VLAN1.png)
 <br>
 ![dhcp+Internal_VLAN2](./hotel_media/dhcp+Internal_VLAN2.png)
+<br>
 *Action: The Internal VLAN Routing and DHCP configured togatehr on the router and tested along with ping*
 
 </details>
@@ -75,8 +76,8 @@ I configured DHCP pools on each router so that every laptop, PC, and smartphone 
 OSPF was configured on all three routers to advertise departmental networks. This ensures that a PC on the 1st floor can find the shortest path to a server on the 3rd floor.
 
 ![OSPF Configuration](./hotel_media/ospf_config.png)
-![Routing Table OSPF Routes](./hotel_media/routing_table.png)
-*Result: The routing table now shows 'O' (OSPF) learned routes for all remote departmental subnets.*
+<br>
+*Result: Here by configuring the OSPF on all Routers we can connect 1 PC of 1 floor to another PC of ANother FLoor.*
 </details>
 
 <details>
